@@ -1,0 +1,18 @@
+# IDEA
+.idea/
+*.iml
+
+# Maven
+target/
+*.jar
+
+# Logs
+logs/
+*.log
+
+# Docker image tar
+*.tar
+
+# OS
+.DS_Store
+Thumbs.db
