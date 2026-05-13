@@ -8,7 +8,6 @@ import org.springframework.stereotype.Component;
 import java.time.Duration;
 
 @Data
-@Component
 @ConfigurationProperties(prefix = "hm.jwt")
 public class JwtProperties {
     private Resource location;
