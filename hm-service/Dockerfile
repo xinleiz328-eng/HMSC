@@ -7,3 +7,4 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 COPY hm-service.jar /app.jar
 # 入口
 ENTRYPOINT ["java", "-jar", "/app.jar"]
+
