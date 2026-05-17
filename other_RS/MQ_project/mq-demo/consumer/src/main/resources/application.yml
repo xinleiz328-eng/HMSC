@@ -9,3 +9,8 @@ spring:
     virtual-host: /hmall # 虚拟主机
     username: hamll # 用户名
     password: 123 # 密码
+    listener:
+      simple:
+        prefetch: 1 #不使用默认的轮询策略，使用能者多劳的策略
+
+
