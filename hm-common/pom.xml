@@ -77,13 +77,13 @@
         <dependency>
             <groupId>org.springframework.amqp</groupId>
             <artifactId>spring-amqp</artifactId>
-            <scope>provided</scope>
+            <scope>optional </scope>
         </dependency>
         <!--Spring整合Rabbit依赖-->
         <dependency>
             <groupId>org.springframework.amqp</groupId>
             <artifactId>spring-rabbit</artifactId>
-            <scope>provided</scope>
+            <scope>optional </scope>
         </dependency>
         <!--json处理-->
         <dependency>
@@ -91,5 +91,7 @@
             <artifactId>jackson-dataformat-xml</artifactId>
             <scope>provided</scope>
         </dependency>
+
     </dependencies>
+
 </project>
